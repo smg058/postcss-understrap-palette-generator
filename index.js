@@ -4,18 +4,29 @@ module.exports = (opts = {}) => {
 
   let colorJson = opts.defaults || {};
   let colors = opts.colors || [
-    '--blue',
-    '--indigo',
-    '--purple',
-    '--pink',
+    '--slate',
+    '--gray',
+    '--zinc',
+    '--neutral',
+    '--stone',
     '--red',
     '--orange',
+    '--amber',
     '--yellow',
+    '--lime',
     '--green',
+    '--emerald',
     '--teal',
     '--cyan',
+    '--sky',
+    '--blue',
+    '--indigo',
+    '--violet',
+    '--purple',
+    '--fuchsia',
+    '--pink',
+    '--rose',
     '--white',
-    '--gray',
     '--gray-dark'
   ];
   let output = opts.output || 'inc/editor-color-palette.json';
